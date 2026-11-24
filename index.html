@@ -183,6 +183,8 @@ function apply(){
 }
 var btns = document.querySelectorAll(".lang-switch button");
 for (var b=0;b<btns.length;b++) btns[b].addEventListener("click", function(){ lang = this.getAttribute("data-lang"); apply(); });
+
+apply();
 </script>
 </body>
 </html>
